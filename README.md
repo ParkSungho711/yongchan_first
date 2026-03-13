@@ -1,6 +1,2 @@
-<h1>robotis 노원점 학생 포트폴리오 진행중</h1>
-<h3<맛집 커뮤니티</h3>
-
-<p>~11/22 회원가입</p>
-<p>~11/29 게시판/</p>
-<p>~12/13 css수정 & 게시판 쓰기</p>
+용찬 포트폴리오
+https://github.com/phobiaofmyself-boop
