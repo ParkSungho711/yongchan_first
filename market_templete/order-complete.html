@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Order Complete</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:#111;
+color:white;
+padding:15px 40px;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:14px;
+}
+
+.container{
+width:1100px;
+margin:auto;
+padding:40px 0;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.card{
+background:white;
+border:1px solid #ddd;
+border-radius:6px;
+overflow:hidden;
+transition:0.2s;
+}
+
+.card:hover{
+transform:translateY(-3px);
+}
+
+.card img{
+width:100%;
+height:200px;
+object-fit:cover;
+}
+
+.card-body{
+padding:15px;
+}
+
+.price{
+font-weight:bold;
+margin-top:5px;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:8px 14px;
+background:#111;
+color:white;
+text-decoration:none;
+font-size:13px;
+border-radius:3px;
+}
+
+.hero{
+background:white;
+padding:60px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.product-layout{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+background:white;
+padding:40px;
+border:1px solid #ddd;
+}
+
+.product-layout img{
+width:100%;
+}
+
+.table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+.table th,.table td{
+padding:14px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+
+.form-box{
+width:400px;
+background:white;
+padding:30px;
+border:1px solid #ddd;
+margin:auto;
+}
+
+.form-box input{
+width:100%;
+padding:10px;
+margin-top:10px;
+border:1px solid #ccc;
+}
+
+.footer{
+margin-top:60px;
+background:#111;
+color:#aaa;
+text-align:center;
+padding:30px;
+font-size:13px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="nav">
+<div class="logo">ModernShop</div>
+<div class="menu">
+<a href="index.html">Home</a>
+<a href="products.html">Products</a>
+<a href="category.html">Category</a>
+<a href="cart.html">Cart</a>
+<a href="login.html">Login</a>
+</div>
+</div>
+</header>
+
+
+<div class="container" style="text-align:center">
+
+<h1>Order Complete</h1>
+<p style="margin-top:10px;">Thank you for your purchase.</p>
+
+<a class="btn" href="index.html">Back to Home</a>
+
+</div>
+
+
+<div class="footer">
+ModernShop Demo Store
+</div>
+
+</body>
+</html>
